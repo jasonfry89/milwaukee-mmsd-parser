@@ -1,6 +1,6 @@
 # Milwaukee, Wisconsin Milwaukee Metropolitan Sewerage District Parser
 
-Parses MMSD current statuses, including Deep Tunnel and water treatement plant capacities
+Parses MMSD current statuses, including Deep Tunnel and water treatment plant capacities
 
 ### Installation
 
