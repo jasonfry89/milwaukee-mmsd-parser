@@ -12,7 +12,7 @@ dependencies = [
 authors = [
     { name="Jason Fry", email="your.email@example.com" },
 ]
-description = "Parses MMSD current statuses, including Deep Tunnel and water treatement plant capacities"
+description = "Parses MMSD current statuses, including Deep Tunnel and water treatment plant capacities"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
