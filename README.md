@@ -1,6 +1,6 @@
 # Milwaukee, Wisconsin Milwaukee Metropolitan Sewerage District Parser
 
-Gets the current status of the Deep Tunnels
+Parses MMSD current statuses, including Deep Tunnel and water treatement plant capacities
 
 ### Installation
 
@@ -24,9 +24,9 @@ Get API key from [PyPI](https://pypi.org/)
 
 `source .venv/bin/activate`
 
-`pip3 install setuptools twine`
+`python3 -m pip install --upgrade build twine`
 
-`python3 setup.py sdist`
+`python3 -m build`
 
-`twine upload dist/*`, using your API key
+`python3 -m twine upload dist/*`, using your API key
 
