@@ -15,7 +15,7 @@ Parses MMSD current statuses, including Deep Tunnel and water treatment plant ca
 `python mke_mmsd_parser.py`
 
 ```
-[MMSDFacilityInformation(name='Deep Tunnel', current_million_gallons=8, maximum_million_gallons=432), MMSDFacilityInformation(name='South Shore Water Reclamation Facility', current_million_gallons=61, maximum_million_gallons=150), MMSDFacilityInformation(name='Jones Island Water Reclamation Facility', current_million_gallons=63, maximum_million_gallons=330)]
+MMSDInformation(facilities=[MMSDFacility(name='Deep Tunnel', current_million_gallons=348, maximum_million_gallons=432), MMSDFacility(name='South Shore Water Reclamation Facility', current_million_gallons=103, maximum_million_gallons=150), MMSDFacility(name='Jones Island Water Reclamation Facility', current_million_gallons=327, maximum_million_gallons=330)], water_drop_alert=False)
 ```
 
 ### Publishing
