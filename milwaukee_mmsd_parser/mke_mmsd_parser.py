@@ -38,7 +38,7 @@ async def get_mmsd_information() -> MMSDInformation:
             parent_element = element.parent
             name_heading = parent_element.find("h4")
             facility = MMSDFacility(
-                name=name_heading.text.title(),
+                name=name_heading.text.strip().title(),
                 current_million_gallons=current_storage_gallons,
                 maximum_million_gallons=maximum_storage_gallons)
             facilities.append(facility)
